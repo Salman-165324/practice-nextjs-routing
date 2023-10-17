@@ -4,7 +4,7 @@ const page = ({ params }: { params: { productsId: string } }) => {
   return (
     <div>
       <h2 className="headingText">
-        This is {params.productsId} no product page
+        This is the product page of product{params.productsId} 
       </h2>
     </div>
   );

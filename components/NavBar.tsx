@@ -28,7 +28,7 @@ const NavBar = () => {
                     <Link className='pb-1 border-b-2' href={"/login"}>Login</Link>
                 </li>
                 <li>
-                    <Link className='pb-1 border-b-2' href={"/search"}>Search</Link>
+                    <Link className='pb-1 border-b-2' href={"/search?q=product1"}>Search</Link>
                 </li>
             </ul>
         </nav>
